@@ -118,10 +118,9 @@ figure figcaption, .img-container figcaption {
 
 @media (max-width: 800px) {
     figure figcaption, .img-container figcaption {
-        font-size: 0.5rem; /* Storlek på texten */
-        color: blue;
-        height: 5rem; /* Höjd för tre textrader baserat på line-height */
-        line-height: 0.675rem; /* Radavstånd */
+        font-size: 0.75rem; /* Smaller font for mobiles */
+        height: 3.75rem; /* Höjd för tre textrader baserat på line-height */
+        line-height: 1.25; /* Radavstånd */
     }
 }
 
