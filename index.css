@@ -119,8 +119,8 @@ figure figcaption, .img-container figcaption {
 @media (max-width: 800px) {
     figure figcaption, .img-container figcaption {
         font-size: 0.5rem; /* Storlek på texten */
-        color: red;
-        height: 4rem; /* Höjd för tre textrader baserat på line-height */
+        color: blue;
+        height: 5rem; /* Höjd för tre textrader baserat på line-height */
         line-height: 0.675rem; /* Radavstånd */
     }
 }
@@ -161,7 +161,7 @@ figure figcaption, .img-container figcaption {
 
 @media (max-width: 800px) {
     .overlay-trophy i {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
 }
 
@@ -196,6 +196,12 @@ figure figcaption, .img-container figcaption {
     background-color: whitesmoke;
     margin: 7.5rem auto;
     width: 70%;
+}
+
+@media (max-width: 800px) {
+    .content {
+        width: 100%;
+    }
 }
 
 .img-container {
