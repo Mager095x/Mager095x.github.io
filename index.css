@@ -135,7 +135,7 @@ figure figcaption, .img-container figcaption {
 
 .overlay-trophy {
     position: absolute;
-    top: 1.25rem;
+    top: 1.5rem;
     right: 1rem;
     background-color: transparent;
     padding: 0.5rem;
@@ -149,7 +149,7 @@ figure figcaption, .img-container figcaption {
 
 @media (max-width: 800px) {
     .overlay-trophy {
-        top: 0.5rem;
+        top: 1rem;
         right: 0.5rem;
     }
 }
@@ -161,7 +161,7 @@ figure figcaption, .img-container figcaption {
 
 @media (max-width: 800px) {
     .overlay-trophy i {
-        font-size: 1rem;
+        font-size: 1.75rem;
     }
 }
 
