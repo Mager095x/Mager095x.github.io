@@ -30,7 +30,7 @@ h3 {
 @media (max-width: 800px) {
     h3 {
         font-size: 0.6rem; /* Smaller font for mobiles */
-        margin-top: -0.175rem;
+        margin-top: 0rem;
     }
 }
 
@@ -121,7 +121,7 @@ figure figcaption, .img-container figcaption {
     figure figcaption, .img-container figcaption {
         font-size: 0.675rem; /* Smaller font for mobiles */
         height: 4.5rem; /* Höjd för fyra textrader baserat på line-height */
-        line-height: 1rem; /* Radavstånd */
+        line-height: 0.675rem; /* Radavstånd */
     }
 }
 
