@@ -161,7 +161,7 @@ figure figcaption, .img-container figcaption {
 
 @media (max-width: 800px) {
     .overlay-trophy i {
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
 }
 
@@ -246,7 +246,7 @@ figure figcaption, .img-container figcaption {
 
 @media (max-width: 800px) {
     .overlay-dots {
-        top: 45%;
+        top: 60%;
         gap: 0.25rem;
     }
 }
