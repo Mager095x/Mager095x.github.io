@@ -122,6 +122,7 @@ figure figcaption, .img-container figcaption {
         font-size: 0.675rem; /* Smaller font for mobiles */
         height: 4.5rem; /* Höjd för fyra textrader baserat på line-height */
         line-height: 0.675rem; /* Radavstånd */
+        color:red;
     }
 }
 
