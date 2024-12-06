@@ -102,7 +102,7 @@ figure img {
 }
 
 figure figcaption, .img-container figcaption {
-
+    font-size: 1.125rem; /* Storlek på texten */
     margin-top: 0.75rem;
     color: rgb(29, 28, 28);
     text-align: center;
@@ -118,9 +118,9 @@ figure figcaption, .img-container figcaption {
 
 @media (max-width: 800px) {
     figure figcaption, .img-container figcaption {
-
+        font-size: 0.675rem; /* Storlek på texten */
         height: 4rem; /* Höjd för tre textrader baserat på line-height */
-        line-height: 0.75rem; /* Radavstånd */
+        line-height: 0.675rem; /* Radavstånd */
     }
 }
 
