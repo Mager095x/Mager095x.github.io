@@ -119,9 +119,9 @@ figure figcaption, .img-container figcaption {
 
 @media (max-width: 800px) {
     figure figcaption, .img-container figcaption {
-        font-size: 0.75rem; /* Smaller font for mobiles */
+        font-size: 0.675rem; /* Smaller font for mobiles */
         height: 4.5rem; /* Höjd för fyra textrader baserat på line-height */
-        line-height: 1.125rem; /* Radavstånd */
+        line-height: 1rem; /* Radavstånd */
     }
 }
 
@@ -135,8 +135,8 @@ figure figcaption, .img-container figcaption {
 
 .overlay-trophy {
     position: absolute;
-    top: 1.5rem;
-    right: 1rem;
+    top: 3.5rem;
+    right: 1.5rem;
     background-color: transparent;
     padding: 0.5rem;
     border-radius: 50%;
@@ -149,7 +149,7 @@ figure figcaption, .img-container figcaption {
 
 @media (max-width: 800px) {
     .overlay-trophy {
-        top: 1rem;
+        top: 0.75rem;
         right: 0.5rem;
     }
 }
@@ -161,7 +161,7 @@ figure figcaption, .img-container figcaption {
 
 @media (max-width: 800px) {
     .overlay-trophy i {
-        font-size: 1.75rem;
+        font-size: 1.25rem;
     }
 }
 
