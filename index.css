@@ -104,11 +104,11 @@ figure img {
 
 figure figcaption, .img-container figcaption {
     font-size: 1.125rem; /* Storlek på texten */
-    margin-top: 0.75rem;
+    margin-top: 0.75rem 0;
     color: rgb(29, 28, 28);
     text-align: center;
     word-break: break-word;
-    height: 5rem; /* Höjd för tre textrader baserat på line-height */
+    height: 3.75rem; /* Höjd för tre textrader baserat på line-height */
     line-height: 1.25rem; /* Radavstånd */
     display: flex;
     align-items: center; /* Vertikal centrering för kortare text */
@@ -120,7 +120,7 @@ figure figcaption, .img-container figcaption {
 @media (max-width: 800px) {
     figure figcaption, .img-container figcaption {
         font-size: 0.75rem; /* Smaller font for mobiles */
-        height: 5rem; /* Höjd för tre textrader baserat på line-height */
+        height: 3.375rem; /* Höjd för tre textrader baserat på line-height */
         line-height: 1.125; /* Radavstånd */
     }
 }
