@@ -7,6 +7,13 @@ body {
     overflow-y: scroll;
 }
 
+@media (max-width: 800px) {
+    body {
+        font-size: 0.75rem; /* Smaller font for mobiles */
+        line-height: 1.25; /* Improve readability */
+    }
+}
+
 header, h1, h3, footer {
     color: whitesmoke;
     text-align: center;
@@ -17,6 +24,13 @@ h3 {
     text-align: center;
     font-size: 1.25rem;
     margin-top: 0.25rem;
+}
+
+@media (max-width: 800px) {
+    h3 {
+        font-size: 0.75rem; /* Smaller font for mobiles */
+        margin-top: 0rem;
+    }
 }
 
 header {
@@ -30,10 +44,24 @@ header {
     height: 6rem;
 }
 
+@media (max-width: 800px) {
+    header {
+        height: 4.5rem;
+    }
+}
+
 h1 {
     margin-top: 1.75rem;
     font-size: 2rem;
     margin-bottom: 0;
+}
+
+@media (max-width: 800px) {
+    h1 {
+        font-size: 1.25rem;
+        margin-top: 2.5rem;
+        margin-bottom: 0;
+    }
 }
 
 nav {
@@ -48,6 +76,19 @@ nav {
     align-items: center;
 }
 
+nav {
+    flex-wrap: wrap;
+    gap: 0.5rem; /* Adjust spacing for smaller screens */
+}
+
+@media (max-width: 800px) {
+    nav {
+        flex-direction: row;
+        align-items: left;
+        gap: 0.25rem;
+    }
+}
+
 figure {
     text-align: center;
     margin: 0;
@@ -60,12 +101,37 @@ figure img {
     height: auto;
 }
 
-figure figcaption, .img-container figcaption, footer {
+/* figure figcaption, .img-container figcaption, footer {
     font-size: 1.125rem;
     margin-top: 0.75rem;
     color:  rgb(29, 28, 28);;
-    text-align: center;
+    text-align: left;
+    min-height: 4rem;
     word-break: break-word;   
+} */
+
+figure figcaption, .img-container figcaption {
+    font-size: 1.125rem; /* Storlek på texten */
+    margin-top: 0.75rem;
+    color: rgb(29, 28, 28);
+    text-align: center;
+    word-break: break-word;
+    height: 5rem; /* Höjd för tre textrader baserat på line-height */
+    line-height: 1.25rem; /* Radavstånd */
+    display: flex;
+    align-items: center; /* Vertikal centrering för kortare text */
+    justify-content: center;
+    overflow: hidden; /* Dölj text som inte får plats */
+    text-overflow: ellipsis; /* Visa "..." om texten är för lång */
+}
+
+@media (max-width: 800px) {
+    figure figcaption, .img-container figcaption {
+        font-size: 1rem; /* Storlek på texten */
+
+        height: 4rem; /* Höjd för tre textrader baserat på line-height */
+        line-height: 1rem; /* Radavstånd */
+    }
 }
 
 .btn-container {
@@ -78,7 +144,7 @@ figure figcaption, .img-container figcaption, footer {
 
 .overlay-trophy {
     position: absolute;
-    top: 1.75rem;
+    top: 1.25rem;
     right: 1rem;
     background-color: transparent;
     padding: 0.5rem;
@@ -105,6 +171,12 @@ figure figcaption, .img-container figcaption, footer {
     font-size: 1rem; /* Gör texten jämnare */
 }
 
+@media (max-width: 800px) {
+    .btn-dark {
+    font-size: 0.675rem;
+    }
+}
+
 .btn-dark:hover, .btn-dark:active {
     background-color: rgb(96, 96, 96);
     color:  whitesmoke;
@@ -116,9 +188,16 @@ figure figcaption, .img-container figcaption, footer {
     flex-wrap: wrap;
     justify-content: center;
     gap: 0rem 2rem;
+    gap: 1rem;
     background-color: whitesmoke;
     margin: 7.5rem auto;
-    width: 50%;
+    width: 70%;
+}
+
+.img-container {
+    flex-basis: calc(100% - 2rem); /* Default to full width on smaller screens */
+    max-width: 100%;
+    aspect-ratio: auto; /* Allow images to resize dynamically */
 }
 
 .img-container {
@@ -155,6 +234,13 @@ figure figcaption, .img-container figcaption, footer {
     z-index: 10;
 }
 
+@media (max-width: 800px) {
+    .overlay-dots {
+        top: 55%;
+        gap: 0.25rem;
+    }
+}
+
 .dot {
     width: 0.25rem;
     height: 0.25rem;
@@ -163,6 +249,14 @@ figure figcaption, .img-container figcaption, footer {
     background-color: transparent;
     transition: background-color 0.2s, border-color 0.2s;
     cursor: pointer;
+}
+
+@media (max-width: 800px) {
+    .dot {
+        width: 0.175rem;
+        height: 0.175rem;
+        border: 0.1rem solid rgb(72, 69, 69);
+    }
 }
 
 .dot.active {
