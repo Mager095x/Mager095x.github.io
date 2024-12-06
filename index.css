@@ -11,7 +11,7 @@ body {
     body {
         font-size: 0.75rem; /* Smaller font for mobiles */
         line-height: 1.125; /* Improve readability */
-        margin-left: 0.25rem;
+        margin-left: 0.5rem;
     }
 }
 
@@ -192,7 +192,6 @@ figure figcaption, .img-container figcaption {
     flex-wrap: wrap;
     justify-content: center;
     gap: 0rem 2rem;
-    gap: 1rem;
     background-color: whitesmoke;
     margin: 7.5rem auto;
     width: 70%;
@@ -246,7 +245,7 @@ figure figcaption, .img-container figcaption {
 
 @media (max-width: 800px) {
     .overlay-dots {
-        top: 60%;
+        top: 65%;
         gap: 0.25rem;
     }
 }
