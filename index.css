@@ -11,7 +11,7 @@ body {
     body {
         font-size: 0.75rem; /* Smaller font for mobiles */
         line-height: 1.125; /* Improve readability */
-        margin-left: 0.5rem;
+        margin-left: 0.75rem;
     }
 }
 
@@ -122,7 +122,6 @@ figure figcaption, .img-container figcaption {
         font-size: 0.675rem; /* Smaller font for mobiles */
         height: 4.5rem; /* Höjd för fyra textrader baserat på line-height */
         line-height: 0.675rem; /* Radavstånd */
-        color:red;
     }
 }
 
@@ -150,7 +149,7 @@ figure figcaption, .img-container figcaption {
 
 @media (max-width: 800px) {
     .overlay-trophy {
-        top: 0.75rem;
+        top: 0.675rem;
         right: 0.5rem;
     }
 }
