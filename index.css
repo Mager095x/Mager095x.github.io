@@ -149,7 +149,7 @@ figure figcaption, .img-container figcaption {
 
 @media (max-width: 800px) {
     .overlay-trophy {
-        top: 0.675rem;
+        top: 0.625rem;
         right: 0.5rem;
     }
 }
