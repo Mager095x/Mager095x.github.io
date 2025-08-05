@@ -154,6 +154,10 @@ figure figcaption, .img-container figcaption {
     }
 }
 
+.img-container:not(.has-media) .overlay-trophy {
+    display: none;
+}
+
 .overlay-trophy i {
     color: #ffd900c7;
     font-size: 2.25rem;
